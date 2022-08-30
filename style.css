@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,100,0.5)) ,url(code6.JPG);
+    height: 800px;
+    width: 1500px;
+    background-size:cover ;
+    background-position: center;
+}
+.nav-bar
+{
+    background: rgb(20, 15,17,1);
+}
+.logo
+{
+    margin: 10px 50px;
+    height: 60px;
+}
+.menu
+{
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+.menu li{
+    display: inline-block;
+    margin: 10px 50px;
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(225, 15, 92);
+    padding: 5px 10px;
+    font-family: sans-serif;
+    border: 1px solid #fff;
+}
+.menu li a:hover
+{
+    background: yellow;
+    transition: .4s;
+    color: red;
+}
+.welcome
+{
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    color: red;
+    top: 160px;
+}
+.welcome h1{
+    font-size: 42px;
+    margin: 25px;
+}
+.btn
+{
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 5px;
+    padding: 7px 10px;
+    text-decoration: none;
+    border: 1px solid red;
+}
+.btn1
+{
+    background: #fff;
+    color: #000;
+}
+.btn2
+{
+    background: ;
+    color: #fff;
+}
+.btn2:hover
+{
+    background: yellow;
+    color: orangered;
+}
